@@ -158,10 +158,17 @@
                     console.log(data)
                     var options = {
                         zoomEnabled: true,
+                        exportEnabled: true,
                         animationEnabled: true,
                         title: {
                             text: "Señal Electrocardiografica"
                         },
+                        axisX: {
+                            title: "Tiempo [s]"
+                        },
+                        axisY: {
+                            title: "Amplitud [mV]
+                        }
                         data: data  // random data
                     };
 
